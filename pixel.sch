@@ -1,0 +1,157 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 5FDB9A71
+P 6000 4200
+AR Path="/5FDB106D/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDB970D/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBA3CC/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBA50B/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBA5B2/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBA783/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBA786/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBA789/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAA32/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAA35/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAA38/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAB4F/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAB52/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAB55/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB35D/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB360/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB363/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB366/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB369/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB36C/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB36F/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB372/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB375/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB555/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB558/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB55B/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB55E/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB561/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB564/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB567/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB56A/5FDB9A71" Ref="D?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB56D/5FDB9A71" Ref="D?"  Part="1" 
+F 0 "D?" H 6050 4100 50  0000 R CNN
+F 1 "LED" H 6050 4300 50  0000 R CNN
+F 2 "" H 6000 4200 50  0001 C CNN
+F 3 "~" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FDB9A77
+P 5700 4200
+AR Path="/5FDB106D/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDB970D/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBA3CC/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBA50B/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBA5B2/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBA783/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBA786/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBA789/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAA32/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAA35/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAA38/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAB4F/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAB52/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAB55/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB35D/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB360/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB363/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB366/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB369/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB36C/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB36F/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB372/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB375/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB555/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB558/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB55B/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB55E/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB561/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB564/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB567/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB56A/5FDB9A77" Ref="R?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB56D/5FDB9A77" Ref="R?"  Part="1" 
+F 0 "R?" V 5800 4200 50  0000 L CNN
+F 1 "100" V 5600 4150 50  0000 L CNN
+F 2 "" V 5630 4200 50  0001 C CNN
+F 3 "~" H 5700 4200 50  0001 C CNN
+	1    5700 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 4200 6400 4200
+Wire Wire Line
+	5300 4200 5550 4200
+Wire Wire Line
+	5300 4200 5300 3900
+Text HLabel 5600 3700 2    50   Input ~ 0
+LED_SINGAL
+$Comp
+L Device:Q_PNP_BCE Q?
+U 1 1 5FDB9A81
+P 5400 3700
+AR Path="/5FDB106D/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDB970D/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBA3CC/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBA50B/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBA5B2/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBA783/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBA786/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBA789/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAA32/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAA35/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAA38/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAB4F/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAB52/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAB55/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB35D/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB360/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB363/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB366/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB369/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB36C/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB36F/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB372/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB375/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB555/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB558/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB55B/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB55E/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB561/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB564/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB567/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB56A/5FDB9A81" Ref="Q?"  Part="1" 
+AR Path="/5FDBAF82/5FDBB56D/5FDB9A81" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5591 3654 50  0000 L CNN
+F 1 "Q_PNP_BCE" H 5591 3745 50  0000 L CNN
+F 2 "" H 5600 3800 50  0001 C CNN
+F 3 "~" H 5400 3700 50  0001 C CNN
+	1    5400 3700
+	-1   0    0    1   
+$EndComp
+Text GLabel 5300 3500 1    50   Input ~ 0
+VCC
+Text GLabel 6400 4200 2    50   Input ~ 0
+GND
+$EndSCHEMATC
