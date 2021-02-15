@@ -1,0 +1,437 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 21
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR?
+U 1 1 602C332F
+P 10350 4050
+AR Path="/602C332F" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/602C332F" Ref="#PWR?"  Part="1" 
+AR Path="/602A9CE4/602C332F" Ref="#PWR?"  Part="1" 
+AR Path="/602C23D8/602C332F" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 10350 3900 50  0001 C CNN
+F 1 "+5V" V 10365 4178 50  0000 L CNN
+F 2 "" H 10350 4050 50  0001 C CNN
+F 3 "" H 10350 4050 50  0001 C CNN
+	1    10350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 1 1 602C3336
+P 7300 4550
+AR Path="/602A9CE4/602C3336" Ref="U?"  Part="1" 
+AR Path="/602C23D8/602C3336" Ref="U8"  Part="1" 
+F 0 "U8" H 7325 4817 50  0000 C CNN
+F 1 "74HC08" H 7325 4726 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7300 4550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 7300 4550 50  0001 C CNN
+F 4 "C5593" H 7300 4550 50  0001 C CNN "LCSC"
+	1    7300 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 2 1 602C333D
+P 8100 4550
+AR Path="/602A9CE4/602C333D" Ref="U?"  Part="2" 
+AR Path="/602C23D8/602C333D" Ref="U8"  Part="2" 
+F 0 "U8" H 8125 4817 50  0000 C CNN
+F 1 "74HC08" H 8125 4726 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8100 4550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 8100 4550 50  0001 C CNN
+F 4 "C5593" H 8100 4550 50  0001 C CNN "LCSC"
+	2    8100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 3 1 602C3344
+P 8850 4550
+AR Path="/602A9CE4/602C3344" Ref="U?"  Part="3" 
+AR Path="/602C23D8/602C3344" Ref="U8"  Part="3" 
+F 0 "U8" H 8875 4817 50  0000 C CNN
+F 1 "74HC08" H 8875 4726 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8850 4550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 8850 4550 50  0001 C CNN
+F 4 "C5593" H 8850 4550 50  0001 C CNN "LCSC"
+	3    8850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 4 1 602C334B
+P 9600 4550
+AR Path="/602A9CE4/602C334B" Ref="U?"  Part="4" 
+AR Path="/602C23D8/602C334B" Ref="U8"  Part="4" 
+F 0 "U8" H 9625 4817 50  0000 C CNN
+F 1 "74HC08" H 9625 4726 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 9600 4550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 9600 4550 50  0001 C CNN
+F 4 "C5593" H 9600 4550 50  0001 C CNN "LCSC"
+	4    9600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC4511D U?
+U 1 1 602CAAED
+P 1550 1450
+AR Path="/602A9CE4/602CAAED" Ref="U?"  Part="1" 
+AR Path="/602C23D8/602CAAED" Ref="U6"  Part="1" 
+F 0 "U6" H 1550 1450 50  0000 C CNN
+F 1 "74HC4511D" V 1450 1400 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 1550 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC4511D-653_C87661.pdf" H 1550 1450 50  0001 C CNN
+F 4 "C87661" H 1550 1450 50  0001 C CNN "LCSC"
+	1    1550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 602CAAF3
+P 1550 1000
+AR Path="/602CAAF3" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/602CAAF3" Ref="#PWR?"  Part="1" 
+AR Path="/602A9CE4/602CAAF3" Ref="#PWR?"  Part="1" 
+AR Path="/602C23D8/602CAAF3" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 1550 850 50  0001 C CNN
+F 1 "+5V" H 1450 1150 50  0000 L CNN
+F 2 "" H 1550 1000 50  0001 C CNN
+F 3 "" H 1550 1000 50  0001 C CNN
+	1    1550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 602CAAF9
+P 1550 1950
+AR Path="/602CAAF9" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/602CAAF9" Ref="#PWR?"  Part="1" 
+AR Path="/602A9CE4/602CAAF9" Ref="#PWR?"  Part="1" 
+AR Path="/602C23D8/602CAAF9" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 1550 1700 50  0001 C CNN
+F 1 "GND" V 1555 1822 50  0000 R CNN
+F 2 "" H 1550 1950 50  0001 C CNN
+F 3 "" H 1550 1950 50  0001 C CNN
+	1    1550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:HEF4518BT U?
+U 1 1 602CAB00
+P 2850 1600
+AR Path="/602A9CE4/602CAB00" Ref="U?"  Part="1" 
+AR Path="/602C23D8/602CAB00" Ref="U7"  Part="1" 
+F 0 "U7" H 2850 1975 50  0000 C CNN
+F 1 "HEF4518BT" H 2850 1884 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 2850 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-HEF4518BT-653_C7870.pdf" H 2850 1600 50  0001 C CNN
+F 4 "C7870" H 2850 1600 50  0001 C CNN "LCSC"
+	1    2850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:HEF4518BT U?
+U 2 1 602CAB07
+P 3900 1600
+AR Path="/602A9CE4/602CAB07" Ref="U?"  Part="2" 
+AR Path="/602C23D8/602CAB07" Ref="U7"  Part="2" 
+F 0 "U7" H 3900 1975 50  0000 C CNN
+F 1 "HEF4518BT" H 3900 1884 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 3900 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-HEF4518BT-653_C7870.pdf" H 3900 1600 50  0001 C CNN
+F 4 "C7870" H 3900 1600 50  0001 C CNN "LCSC"
+	2    3900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:HEF4518BT U?
+U 3 1 602CAB0E
+P 5050 1600
+AR Path="/602A9CE4/602CAB0E" Ref="U?"  Part="3" 
+AR Path="/602C23D8/602CAB0E" Ref="U7"  Part="3" 
+F 0 "U7" H 5328 1646 50  0000 L CNN
+F 1 "HEF4518BT" H 5328 1555 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 5050 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-HEF4518BT-653_C7870.pdf" H 5050 1600 50  0001 C CNN
+F 4 "C7870" H 5050 1600 50  0001 C CNN "LCSC"
+	3    5050 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 602CAB14
+P 5050 1300
+AR Path="/602CAB14" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/602CAB14" Ref="#PWR?"  Part="1" 
+AR Path="/602A9CE4/602CAB14" Ref="#PWR?"  Part="1" 
+AR Path="/602C23D8/602CAB14" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 5050 1150 50  0001 C CNN
+F 1 "+5V" V 5065 1428 50  0000 L CNN
+F 2 "" H 5050 1300 50  0001 C CNN
+F 3 "" H 5050 1300 50  0001 C CNN
+	1    5050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 602CAB1A
+P 5050 1900
+AR Path="/602CAB1A" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/602CAB1A" Ref="#PWR?"  Part="1" 
+AR Path="/602A9CE4/602CAB1A" Ref="#PWR?"  Part="1" 
+AR Path="/602C23D8/602CAB1A" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 5050 1650 50  0001 C CNN
+F 1 "GND" V 5055 1772 50  0000 R CNN
+F 2 "" H 5050 1900 50  0001 C CNN
+F 3 "" H 5050 1900 50  0001 C CNN
+	1    5050 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 1200 3200 0    50   Input ~ 0
+Q0
+Text GLabel 1200 3350 0    50   Input ~ 0
+Q1
+Text GLabel 1200 3500 0    50   Input ~ 0
+Q2
+Text GLabel 1200 3650 0    50   Input ~ 0
+Q3
+Text GLabel 1200 3800 0    50   Input ~ 0
+Q4
+Text GLabel 1200 3950 0    50   Input ~ 0
+Q5
+Text GLabel 1200 4100 0    50   Input ~ 0
+Q6
+Text GLabel 1200 4250 0    50   Input ~ 0
+Q7
+Text GLabel 1200 4400 0    50   Input ~ 0
+Q8
+Text GLabel 1200 4550 0    50   Input ~ 0
+Q9
+$Comp
+L 74xx:74HC00 U5
+U 1 1 602DC497
+P 6800 1400
+F 0 "U5" H 6800 1725 50  0000 C CNN
+F 1 "74HC00" H 6800 1634 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 6800 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 6800 1400 50  0001 C CNN
+	1    6800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC00 U5
+U 2 1 602DD2B5
+P 7650 1400
+F 0 "U5" H 7650 1725 50  0000 C CNN
+F 1 "74HC00" H 7650 1634 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 7650 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 7650 1400 50  0001 C CNN
+	2    7650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC00 U5
+U 3 1 602DE268
+P 8550 1400
+F 0 "U5" H 8550 1725 50  0000 C CNN
+F 1 "74HC00" H 8550 1634 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 8550 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 8550 1400 50  0001 C CNN
+	3    8550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC00 U10
+U 4 1 602DFB6B
+P 9450 1400
+F 0 "U10" H 9450 1725 50  0000 C CNN
+F 1 "74HC00" H 9450 1634 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 9450 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 9450 1400 50  0001 C CNN
+	4    9450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC00 U5
+U 5 1 602E12B0
+P 10300 1400
+F 0 "U5" H 10530 1446 50  0000 L CNN
+F 1 "74HC00" H 10530 1355 50  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 10300 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 10300 1400 50  0001 C CNN
+	5    10300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6031C85E
+P 10300 900
+AR Path="/6031C85E" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/6031C85E" Ref="#PWR?"  Part="1" 
+AR Path="/602A9CE4/6031C85E" Ref="#PWR?"  Part="1" 
+AR Path="/602C23D8/6031C85E" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 10300 750 50  0001 C CNN
+F 1 "+5V" V 10315 1028 50  0000 L CNN
+F 2 "" H 10300 900 50  0001 C CNN
+F 3 "" H 10300 900 50  0001 C CNN
+	1    10300 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC08 U?
+U 5 1 602C3352
+P 10350 4550
+AR Path="/602A9CE4/602C3352" Ref="U?"  Part="5" 
+AR Path="/602C23D8/602C3352" Ref="U8"  Part="5" 
+F 0 "U8" H 10580 4596 50  0000 L CNN
+F 1 "74HC08" H 10580 4505 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 10350 4550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC08D-653_C5593.pdf" H 10350 4550 50  0001 C CNN
+F 4 "C5593" H 10350 4550 50  0001 C CNN "LCSC"
+	5    10350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 602C3329
+P 10350 5050
+AR Path="/602C3329" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/602C3329" Ref="#PWR?"  Part="1" 
+AR Path="/602A9CE4/602C3329" Ref="#PWR?"  Part="1" 
+AR Path="/602C23D8/602C3329" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 10350 4800 50  0001 C CNN
+F 1 "GND" V 10355 4922 50  0000 R CNN
+F 2 "" H 10350 5050 50  0001 C CNN
+F 3 "" H 10350 5050 50  0001 C CNN
+	1    10350 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6033BD3D
+P 10300 1900
+AR Path="/6033BD3D" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/6033BD3D" Ref="#PWR?"  Part="1" 
+AR Path="/602A9CE4/6033BD3D" Ref="#PWR?"  Part="1" 
+AR Path="/602C23D8/6033BD3D" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 10300 1650 50  0001 C CNN
+F 1 "GND" V 10305 1772 50  0000 R CNN
+F 2 "" H 10300 1900 50  0001 C CNN
+F 3 "" H 10300 1900 50  0001 C CNN
+	1    10300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 1 1 6038AA9F
+P 7600 2900
+AR Path="/602A9CE4/6038AA9F" Ref="U?"  Part="1" 
+AR Path="/602C23D8/6038AA9F" Ref="U9"  Part="1" 
+F 0 "U9" H 7575 3175 50  0000 C CNN
+F 1 "74HC32" H 7575 3084 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7050 3100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 7050 3100 50  0001 C CNN
+F 4 "C5632" H 7600 2900 50  0001 C CNN "LCSC"
+	1    7600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 2 1 6038AAA6
+P 8350 2900
+AR Path="/602A9CE4/6038AAA6" Ref="U?"  Part="2" 
+AR Path="/602C23D8/6038AAA6" Ref="U9"  Part="2" 
+F 0 "U9" H 8325 3175 50  0000 C CNN
+F 1 "74HC32" H 8325 3084 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7800 3100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 7800 3100 50  0001 C CNN
+F 4 "C5632" H 8350 2900 50  0001 C CNN "LCSC"
+	2    8350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 3 1 6038AAAD
+P 9100 2900
+AR Path="/602A9CE4/6038AAAD" Ref="U?"  Part="3" 
+AR Path="/602C23D8/6038AAAD" Ref="U9"  Part="3" 
+F 0 "U9" H 9075 3175 50  0000 C CNN
+F 1 "74HC32" H 9075 3084 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8550 3100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 8550 3100 50  0001 C CNN
+F 4 "C5632" H 9100 2900 50  0001 C CNN "LCSC"
+	3    9100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 4 1 6038AAB4
+P 9850 2900
+AR Path="/602A9CE4/6038AAB4" Ref="U?"  Part="4" 
+AR Path="/602C23D8/6038AAB4" Ref="U9"  Part="4" 
+F 0 "U9" H 9825 3175 50  0000 C CNN
+F 1 "74HC32" H 9825 3084 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 9300 3100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 9300 3100 50  0001 C CNN
+F 4 "C5632" H 9850 2900 50  0001 C CNN "LCSC"
+	4    9850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PB170:74HC32 U?
+U 5 1 6038AABB
+P 10700 2900
+AR Path="/602A9CE4/6038AABB" Ref="U?"  Part="5" 
+AR Path="/602C23D8/6038AABB" Ref="U9"  Part="5" 
+F 0 "U9" H 10578 2946 50  0000 L CNN
+F 1 "74HC32" H 10578 2855 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 10150 3100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nexperia-74HC32D-653_C5632.pdf" H 10150 3100 50  0001 C CNN
+F 4 "C5632" H 10700 2900 50  0001 C CNN "LCSC"
+	5    10700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6038AAC1
+P 10400 3250
+AR Path="/6038AAC1" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/6038AAC1" Ref="#PWR?"  Part="1" 
+AR Path="/602A9CE4/6038AAC1" Ref="#PWR?"  Part="1" 
+AR Path="/602C23D8/6038AAC1" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 10400 3000 50  0001 C CNN
+F 1 "GND" V 10405 3122 50  0000 R CNN
+F 2 "" H 10400 3250 50  0001 C CNN
+F 3 "" H 10400 3250 50  0001 C CNN
+	1    10400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6038AAC7
+P 10400 2550
+AR Path="/6038AAC7" Ref="#PWR?"  Part="1" 
+AR Path="/5FEB4D4D/6038AAC7" Ref="#PWR?"  Part="1" 
+AR Path="/602A9CE4/6038AAC7" Ref="#PWR?"  Part="1" 
+AR Path="/602C23D8/6038AAC7" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 10400 2400 50  0001 C CNN
+F 1 "+5V" V 10415 2678 50  0000 L CNN
+F 2 "" H 10400 2550 50  0001 C CNN
+F 3 "" H 10400 2550 50  0001 C CNN
+	1    10400 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

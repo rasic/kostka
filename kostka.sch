@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 21
 Title ""
 Date ""
 Rev ""
@@ -14,172 +14,196 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 8600 4300 1000 1000
+S 9600 5100 1000 1000
 U 5FDBAF82
 F0 "Display" 50
 F1 "display.sch" 50
-F2 "LED_1" I L 8600 4600 50 
-F3 "LED_2" I L 8600 4700 50 
-F4 "LED_3" I L 8600 4800 50 
-F5 "LED_4" I L 8600 4900 50 
-F6 "LED_5" I L 8600 5000 50 
-F7 "LED_6" I R 9600 4650 50 
-F8 "LED_7" I R 9600 4750 50 
-F9 "LED_8" I R 9600 4850 50 
-F10 "LED_9" I R 9600 4950 50 
+F2 "LED_1" I L 9600 5400 50 
+F3 "LED_2" I L 9600 5500 50 
+F4 "LED_3" I L 9600 5600 50 
+F5 "LED_4" I L 9600 5700 50 
+F6 "LED_5" I L 9600 5800 50 
+F7 "LED_6" I R 10600 5450 50 
+F8 "LED_7" I R 10600 5550 50 
+F9 "LED_8" I R 10600 5650 50 
+F10 "LED_9" I R 10600 5750 50 
 $EndSheet
-Text GLabel 8600 4600 0    50   Input ~ 0
+Text GLabel 9600 5400 0    50   Input ~ 0
 LED1
-Text GLabel 8600 4700 0    50   Input ~ 0
+Text GLabel 9600 5500 0    50   Input ~ 0
 LED2
-Text GLabel 8600 4800 0    50   Input ~ 0
+Text GLabel 9600 5600 0    50   Input ~ 0
 LED3
-Text GLabel 8600 4900 0    50   Input ~ 0
+Text GLabel 9600 5700 0    50   Input ~ 0
 LED4
-Text GLabel 8600 5000 0    50   Input ~ 0
+Text GLabel 9600 5800 0    50   Input ~ 0
 LED5
-Text GLabel 9600 4650 2    50   Input ~ 0
+Text GLabel 10600 5450 2    50   Input ~ 0
 LED6
-Text GLabel 9600 4750 2    50   Input ~ 0
+Text GLabel 10600 5550 2    50   Input ~ 0
 LED7
-Text GLabel 9600 4850 2    50   Input ~ 0
+Text GLabel 10600 5650 2    50   Input ~ 0
 LED8
-Text GLabel 9600 4950 2    50   Input ~ 0
+Text GLabel 10600 5750 2    50   Input ~ 0
 LED9
-Text GLabel 2600 2250 0    50   Input ~ 0
+Text GLabel 1000 650  0    50   Input ~ 0
 NUM1
-Text GLabel 2600 2400 0    50   Input ~ 0
+Text GLabel 1000 800  0    50   Input ~ 0
 NUM2
-Text GLabel 2600 2550 0    50   Input ~ 0
+Text GLabel 1000 950  0    50   Input ~ 0
 NUM3
-Text GLabel 2600 2700 0    50   Input ~ 0
+Text GLabel 1000 1100 0    50   Input ~ 0
 NUM4
-Text GLabel 2600 2850 0    50   Input ~ 0
+Text GLabel 1000 1250 0    50   Input ~ 0
 NUM5
-Text GLabel 2600 3000 0    50   Input ~ 0
+Text GLabel 1000 1400 0    50   Input ~ 0
 NUM6
-Text GLabel 2600 3150 0    50   Input ~ 0
+Text GLabel 1000 1550 0    50   Input ~ 0
 NUM7
-Text GLabel 2600 3300 0    50   Input ~ 0
+Text GLabel 1000 1700 0    50   Input ~ 0
 NUM8
-Text GLabel 2600 3450 0    50   Input ~ 0
+Text GLabel 1000 1850 0    50   Input ~ 0
 NUM9
-Text GLabel 3700 1950 0    50   Input ~ 0
+Text GLabel 1500 800  0    50   Input ~ 0
 NUM1
-Text GLabel 3550 2150 2    50   Input ~ 0
+Text GLabel 1350 1000 2    50   Input ~ 0
 LED5
-Text GLabel 4350 1950 0    50   Input ~ 0
+Text GLabel 2150 800  0    50   Input ~ 0
 NUM2
-Text GLabel 4200 2150 2    50   Input ~ 0
+Text GLabel 2000 1000 2    50   Input ~ 0
 LED1
-Text GLabel 4200 2300 2    50   Input ~ 0
+Text GLabel 2000 1150 2    50   Input ~ 0
 LED9
-Text GLabel 5000 1950 0    50   Input ~ 0
+Text GLabel 2800 800  0    50   Input ~ 0
 NUM3
-Text GLabel 4850 2150 2    50   Input ~ 0
+Text GLabel 2650 1000 2    50   Input ~ 0
 LED3
-Text GLabel 4850 2300 2    50   Input ~ 0
+Text GLabel 2650 1150 2    50   Input ~ 0
 LED5
-Text GLabel 5650 1950 0    50   Input ~ 0
+Text GLabel 3450 800  0    50   Input ~ 0
 NUM4
-Text GLabel 5500 2150 2    50   Input ~ 0
+Text GLabel 3300 1000 2    50   Input ~ 0
 LED1
-Text GLabel 5500 2300 2    50   Input ~ 0
+Text GLabel 3300 1150 2    50   Input ~ 0
 LED3
-Text GLabel 6300 1950 0    50   Input ~ 0
+Text GLabel 4100 800  0    50   Input ~ 0
 NUM5
-Text GLabel 3700 3300 0    50   Input ~ 0
+Text GLabel 1500 2150 0    50   Input ~ 0
 NUM6
-Text GLabel 3550 3500 2    50   Input ~ 0
+Text GLabel 1350 2350 2    50   Input ~ 0
 LED1
-Text GLabel 4350 3300 0    50   Input ~ 0
+Text GLabel 2150 2150 0    50   Input ~ 0
 NUM7
-Text GLabel 5000 3300 0    50   Input ~ 0
+Text GLabel 2800 2150 0    50   Input ~ 0
 NUM8
-Text GLabel 5650 3300 0    50   Input ~ 0
+Text GLabel 3450 2150 0    50   Input ~ 0
 NUM9
-Text GLabel 4850 2450 2    50   Input ~ 0
+Text GLabel 2650 1300 2    50   Input ~ 0
 LED7
-Text GLabel 5500 2450 2    50   Input ~ 0
+Text GLabel 3300 1300 2    50   Input ~ 0
 LED7
-Text GLabel 5500 2600 2    50   Input ~ 0
+Text GLabel 3300 1450 2    50   Input ~ 0
 LED9
-Text GLabel 6150 2150 2    50   Input ~ 0
+Text GLabel 3950 1000 2    50   Input ~ 0
 LED1
-Text GLabel 6150 2300 2    50   Input ~ 0
+Text GLabel 3950 1150 2    50   Input ~ 0
 LED3
-Text GLabel 6150 2450 2    50   Input ~ 0
+Text GLabel 3950 1300 2    50   Input ~ 0
 LED5
-Text GLabel 6150 2600 2    50   Input ~ 0
+Text GLabel 3950 1450 2    50   Input ~ 0
 LED7
-Text GLabel 6150 2750 2    50   Input ~ 0
+Text GLabel 3950 1600 2    50   Input ~ 0
 LED9
-Text GLabel 3550 3650 2    50   Input ~ 0
+Text GLabel 1350 2500 2    50   Input ~ 0
 LED2
-Text GLabel 3550 3800 2    50   Input ~ 0
+Text GLabel 1350 2650 2    50   Input ~ 0
 LED3
-Text GLabel 3550 3950 2    50   Input ~ 0
+Text GLabel 1350 2800 2    50   Input ~ 0
 LED7
-Text GLabel 3550 4100 2    50   Input ~ 0
+Text GLabel 1350 2950 2    50   Input ~ 0
 LED8
-Text GLabel 3550 4250 2    50   Input ~ 0
+Text GLabel 1350 3100 2    50   Input ~ 0
 LED9
-Text GLabel 4200 3500 2    50   Input ~ 0
+Text GLabel 2000 2350 2    50   Input ~ 0
 LED1
-Text GLabel 4200 3650 2    50   Input ~ 0
+Text GLabel 2000 2500 2    50   Input ~ 0
 LED2
-Text GLabel 4200 3800 2    50   Input ~ 0
+Text GLabel 2000 2650 2    50   Input ~ 0
 LED3
-Text GLabel 4200 4100 2    50   Input ~ 0
+Text GLabel 2000 2950 2    50   Input ~ 0
 LED7
-Text GLabel 4200 4250 2    50   Input ~ 0
+Text GLabel 2000 3100 2    50   Input ~ 0
 LED8
-Text GLabel 4200 4400 2    50   Input ~ 0
+Text GLabel 2000 3250 2    50   Input ~ 0
 LED9
-Text GLabel 4200 3950 2    50   Input ~ 0
+Text GLabel 2000 2800 2    50   Input ~ 0
 LED5
-Text GLabel 4850 4550 2    50   Input ~ 0
+Text GLabel 2650 3400 2    50   Input ~ 0
 LED9
-Text GLabel 4850 4400 2    50   Input ~ 0
+Text GLabel 2650 3250 2    50   Input ~ 0
 LED8
-Text GLabel 4850 4250 2    50   Input ~ 0
+Text GLabel 2650 3100 2    50   Input ~ 0
 LED7
-Text GLabel 4850 4100 2    50   Input ~ 0
+Text GLabel 2650 2950 2    50   Input ~ 0
 LED6
-Text GLabel 4850 3950 2    50   Input ~ 0
+Text GLabel 2650 2800 2    50   Input ~ 0
 LED4
-Text GLabel 4850 3800 2    50   Input ~ 0
+Text GLabel 2650 2650 2    50   Input ~ 0
 LED3
-Text GLabel 4850 3650 2    50   Input ~ 0
+Text GLabel 2650 2500 2    50   Input ~ 0
 LED2
-Text GLabel 4850 3500 2    50   Input ~ 0
+Text GLabel 2650 2350 2    50   Input ~ 0
 LED1
-Text GLabel 5500 4700 2    50   Input ~ 0
+Text GLabel 3300 3550 2    50   Input ~ 0
 LED9
-Text GLabel 5500 4550 2    50   Input ~ 0
+Text GLabel 3300 3400 2    50   Input ~ 0
 LED8
-Text GLabel 5500 4400 2    50   Input ~ 0
+Text GLabel 3300 3250 2    50   Input ~ 0
 LED7
-Text GLabel 5500 4250 2    50   Input ~ 0
+Text GLabel 3300 3100 2    50   Input ~ 0
 LED6
-Text GLabel 5500 3950 2    50   Input ~ 0
+Text GLabel 3300 2800 2    50   Input ~ 0
 LED4
-Text GLabel 5500 3800 2    50   Input ~ 0
+Text GLabel 3300 2650 2    50   Input ~ 0
 LED3
-Text GLabel 5500 3650 2    50   Input ~ 0
+Text GLabel 3300 2500 2    50   Input ~ 0
 LED2
-Text GLabel 5500 3500 2    50   Input ~ 0
+Text GLabel 3300 2350 2    50   Input ~ 0
 LED1
-Text GLabel 5500 4100 2    50   Input ~ 0
+Text GLabel 3300 2950 2    50   Input ~ 0
 LED5
 Wire Notes Line
-	3400 3000 6500 3000
+	1200 1850 4300 1850
 Wire Notes Line
-	5900 1750 5900 4800
+	3700 600  3700 3650
 Wire Notes Line
-	5250 1750 5250 4800
+	3050 600  3050 3650
 Wire Notes Line
-	4600 1750 4600 4800
+	2400 600  2400 3650
 Wire Notes Line
-	3950 1750 3950 4800
+	1750 600  1750 3650
+$Sheet
+S 9600 3650 1200 1000
+U 6024149B
+F0 "Power" 50
+F1 "power.sch" 50
+$EndSheet
+$Sheet
+S 850  6500 1250 950 
+U 602A9CE4
+F0 "newParts" 50
+F1 "newParts.sch" 50
+$EndSheet
+$Sheet
+S 950  5200 1150 800 
+U 602C23D8
+F0 "Logic" 50
+F1 "logic.sch" 50
+$EndSheet
+$Sheet
+S 7350 5050 1650 1150
+U 609B3601
+F0 "Display Driver" 50
+F1 "DisplayDriver.sch" 50
+$EndSheet
 $EndSCHEMATC
