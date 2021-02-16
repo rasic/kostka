@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 21
+Sheet 1 22
 Title ""
 Date ""
 Rev ""
@@ -183,7 +183,7 @@ Wire Notes Line
 Wire Notes Line
 	1750 600  1750 3650
 $Sheet
-S 9600 3650 1200 1000
+S 9600 3650 1000 1150
 U 6024149B
 F0 "Power" 50
 F1 "power.sch" 50
@@ -201,9 +201,15 @@ F0 "Logic" 50
 F1 "logic.sch" 50
 $EndSheet
 $Sheet
-S 7350 5050 1650 1150
+S 7350 5100 1650 1000
 U 609B3601
 F0 "Display Driver" 50
 F1 "DisplayDriver.sch" 50
+$EndSheet
+$Sheet
+S 7350 3650 1650 1150
+U 604DB9E1
+F0 "Selection Driver" 50
+F1 "selection.sch" 50
 $EndSheet
 $EndSCHEMATC
