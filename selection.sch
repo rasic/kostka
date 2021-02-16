@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 22 22
+Sheet 22 24
 Title ""
 Date ""
 Rev ""
@@ -181,7 +181,7 @@ VCC
 Text GLabel 10300 6150 3    50   Input ~ 0
 VCC
 Text GLabel 8950 5850 0    50   Input ~ 0
-CLK
+MODE
 Wire Wire Line
 	10000 5950 10000 5850
 Wire Wire Line
@@ -1322,4 +1322,5 @@ F 3 "" H 7250 6200 50  0001 C CNN
 $EndComp
 Text GLabel 7600 2600 2    50   Input ~ 0
 COUNTER_RST
+Connection ~ 2950 6150
 $EndSCHEMATC

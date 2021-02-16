@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 22
+Sheet 1 24
 Title ""
 Date ""
 Rev ""
@@ -195,7 +195,7 @@ F0 "newParts" 50
 F1 "newParts.sch" 50
 $EndSheet
 $Sheet
-S 950  5200 1150 800 
+S 850  5400 1150 800 
 U 602C23D8
 F0 "Logic" 50
 F1 "logic.sch" 50
@@ -211,5 +211,17 @@ S 7350 3650 1650 1150
 U 604DB9E1
 F0 "Selection Driver" 50
 F1 "selection.sch" 50
+$EndSheet
+$Sheet
+S 7350 2450 1500 900 
+U 60FAFEF5
+F0 "555" 50
+F1 "timer.sch" 50
+$EndSheet
+$Sheet
+S 850  4250 1300 850 
+U 60FBD71F
+F0 "Buttons" 50
+F1 "buttons.sch" 50
 $EndSheet
 $EndSCHEMATC
