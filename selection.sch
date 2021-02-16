@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 22 24
+Sheet 20 21
 Title ""
 Date ""
 Rev ""
@@ -299,51 +299,6 @@ Wire Wire Line
 	9550 1600 9800 1600
 Wire Wire Line
 	9550 1600 9550 1300
-$Comp
-L Device:Q_PNP_BCE Q?
-U 1 1 602EDC28
-P 9650 1100
-AR Path="/5FDB106D/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDB970D/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBA3CC/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBA50B/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBA5B2/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBA783/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBA786/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBA789/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA32/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA35/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA38/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB4F/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB52/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB55/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB35D/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB360/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB363/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB366/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB369/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB36C/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB36F/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB372/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB375/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB555/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB558/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB55B/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB55E/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB561/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB564/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB567/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB56A/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB56D/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/602AD1D9/602EDC28" Ref="Q?"  Part="1" 
-AR Path="/604DB9E1/602EDC28" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9841 1054 50  0000 L CNN
-F 1 "Q_PNP_BCE" H 9841 1145 50  0000 L CNN
-F 2 "" H 9850 1200 50  0001 C CNN
-F 3 "~" H 9650 1100 50  0001 C CNN
-	1    9650 1100
-	-1   0    0    1   
-$EndComp
 Text GLabel 9550 900  1    50   Input ~ 0
 VCC
 Text GLabel 10650 1600 2    50   Input ~ 0
@@ -444,51 +399,6 @@ Wire Wire Line
 	9500 2600 9750 2600
 Wire Wire Line
 	9500 2600 9500 2300
-$Comp
-L Device:Q_PNP_BCE Q?
-U 1 1 602F2F3D
-P 9600 2100
-AR Path="/5FDB106D/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDB970D/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBA3CC/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBA50B/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBA5B2/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBA783/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBA786/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBA789/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA32/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA35/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA38/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB4F/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB52/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB55/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB35D/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB360/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB363/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB366/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB369/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB36C/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB36F/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB372/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB375/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB555/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB558/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB55B/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB55E/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB561/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB564/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB567/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB56A/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB56D/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/602AD1D9/602F2F3D" Ref="Q?"  Part="1" 
-AR Path="/604DB9E1/602F2F3D" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9791 2054 50  0000 L CNN
-F 1 "Q_PNP_BCE" H 9791 2145 50  0000 L CNN
-F 2 "" H 9800 2200 50  0001 C CNN
-F 3 "~" H 9600 2100 50  0001 C CNN
-	1    9600 2100
-	-1   0    0    1   
-$EndComp
 Text GLabel 9500 1900 1    50   Input ~ 0
 VCC
 Text GLabel 10600 2600 2    50   Input ~ 0
@@ -589,51 +499,6 @@ Wire Wire Line
 	9500 3600 9750 3600
 Wire Wire Line
 	9500 3600 9500 3300
-$Comp
-L Device:Q_PNP_BCE Q?
-U 1 1 602FDAD3
-P 9600 3100
-AR Path="/5FDB106D/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDB970D/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBA3CC/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBA50B/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBA5B2/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBA783/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBA786/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBA789/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA32/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA35/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA38/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB4F/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB52/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB55/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB35D/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB360/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB363/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB366/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB369/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB36C/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB36F/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB372/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB375/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB555/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB558/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB55B/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB55E/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB561/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB564/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB567/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB56A/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB56D/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/602AD1D9/602FDAD3" Ref="Q?"  Part="1" 
-AR Path="/604DB9E1/602FDAD3" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9791 3054 50  0000 L CNN
-F 1 "Q_PNP_BCE" H 9791 3145 50  0000 L CNN
-F 2 "" H 9800 3200 50  0001 C CNN
-F 3 "~" H 9600 3100 50  0001 C CNN
-	1    9600 3100
-	-1   0    0    1   
-$EndComp
 Text GLabel 9500 2900 1    50   Input ~ 0
 VCC
 Text GLabel 10600 3600 2    50   Input ~ 0
@@ -734,51 +599,6 @@ Wire Wire Line
 	9550 4650 9800 4650
 Wire Wire Line
 	9550 4650 9550 4350
-$Comp
-L Device:Q_PNP_BCE Q?
-U 1 1 602FEA97
-P 9650 4150
-AR Path="/5FDB106D/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDB970D/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBA3CC/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBA50B/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBA5B2/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBA783/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBA786/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBA789/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA32/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA35/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAA38/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB4F/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB52/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAB55/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB35D/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB360/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB363/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB366/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB369/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB36C/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB36F/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB372/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB375/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB555/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB558/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB55B/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB55E/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB561/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB564/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB567/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB56A/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/5FDBAF82/5FDBB56D/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/602AD1D9/602FEA97" Ref="Q?"  Part="1" 
-AR Path="/604DB9E1/602FEA97" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9841 4104 50  0000 L CNN
-F 1 "Q_PNP_BCE" H 9841 4195 50  0000 L CNN
-F 2 "" H 9850 4250 50  0001 C CNN
-F 3 "~" H 9650 4150 50  0001 C CNN
-	1    9650 4150
-	-1   0    0    1   
-$EndComp
 Text GLabel 9550 3950 1    50   Input ~ 0
 VCC
 Text GLabel 10650 4650 2    50   Input ~ 0
@@ -967,22 +787,10 @@ Text Label 900  1300 0    50   ~ 0
 D0
 Text Label 900  2100 0    50   ~ 0
 D1
-Text Label 10050 1100 2    50   ~ 0
+Text Label 9050 1100 0    50   ~ 0
 S0
 Wire Wire Line
-	9850 1100 10050 1100
-Text Label 10000 2100 2    50   ~ 0
-S1
-Wire Wire Line
-	9800 2100 10000 2100
-Text Label 10000 3100 2    50   ~ 0
-S2
-Wire Wire Line
-	9800 3100 10000 3100
-Text Label 10050 4150 2    50   ~ 0
-S3
-Wire Wire Line
-	9850 4150 10050 4150
+	9250 1100 9050 1100
 Text Label 9750 5750 2    50   ~ 0
 D0
 Wire Wire Line
@@ -1322,5 +1130,76 @@ F 3 "" H 7250 6200 50  0001 C CNN
 $EndComp
 Text GLabel 7600 2600 2    50   Input ~ 0
 COUNTER_RST
-Connection ~ 2950 6150
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 6104A966
+P 9450 1100
+AR Path="/5FD186F6/6104A966" Ref="Q?"  Part="1" 
+AR Path="/6104A966" Ref="Q?"  Part="1" 
+AR Path="/60FBD71F/6104A966" Ref="Q?"  Part="1" 
+AR Path="/604DB9E1/6104A966" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9641 1146 50  0000 L CNN
+F 1 "BC817" H 9641 1055 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9650 1025 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 9450 1100 50  0001 L CNN
+	1    9450 1100
+	1    0    0    -1  
+$EndComp
+Text Label 9000 2100 0    50   ~ 0
+S1
+Wire Wire Line
+	9200 2100 9000 2100
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 610662A0
+P 9400 2100
+AR Path="/5FD186F6/610662A0" Ref="Q?"  Part="1" 
+AR Path="/610662A0" Ref="Q?"  Part="1" 
+AR Path="/60FBD71F/610662A0" Ref="Q?"  Part="1" 
+AR Path="/604DB9E1/610662A0" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9591 2146 50  0000 L CNN
+F 1 "BC817" H 9591 2055 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9600 2025 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 9400 2100 50  0001 L CNN
+	1    9400 2100
+	1    0    0    -1  
+$EndComp
+Text Label 9000 3100 0    50   ~ 0
+S2
+Wire Wire Line
+	9200 3100 9000 3100
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 6107105E
+P 9400 3100
+AR Path="/5FD186F6/6107105E" Ref="Q?"  Part="1" 
+AR Path="/6107105E" Ref="Q?"  Part="1" 
+AR Path="/60FBD71F/6107105E" Ref="Q?"  Part="1" 
+AR Path="/604DB9E1/6107105E" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9591 3146 50  0000 L CNN
+F 1 "BC817" H 9591 3055 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9600 3025 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 9400 3100 50  0001 L CNN
+	1    9400 3100
+	1    0    0    -1  
+$EndComp
+Text Label 9050 4150 0    50   ~ 0
+S3
+Wire Wire Line
+	9250 4150 9050 4150
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 61079C4A
+P 9450 4150
+AR Path="/5FD186F6/61079C4A" Ref="Q?"  Part="1" 
+AR Path="/61079C4A" Ref="Q?"  Part="1" 
+AR Path="/60FBD71F/61079C4A" Ref="Q?"  Part="1" 
+AR Path="/604DB9E1/61079C4A" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9641 4196 50  0000 L CNN
+F 1 "BC817" H 9641 4105 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9650 4075 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 9450 4150 50  0001 L CNN
+	1    9450 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
